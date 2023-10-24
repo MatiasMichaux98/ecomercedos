@@ -1,7 +1,7 @@
 
 :root{
-  --color-acento: #ee6130;
-  --color-acento-claro: #ee613033;
+  --color-acento: #ded066;
+  --color-acento-claro: #eae49e;
   --color-texto: black;
 }
 
@@ -57,6 +57,7 @@ header.main-header{
   padding: 1rem;
   background-color: rgb(33, 33, 33);
   z-index: 999;
+  margin-bottom: -5px;
 }
  
 .wrap-logo-header{
@@ -119,14 +120,14 @@ ul.main-menu #nav-main-contact{
   display: flex;
   align-items: center;
   padding: .5rem 1rem;
-  background-color: #c9c9c9;
+  background-color: #d3ba3c;
   border-radius: 20px;
   color: #040404;
   
 }
    
 ul.main-menu #nav-main-contact:hover{
- background-color: #afafaf;
+ background-color: #a88326;
 }
 li.menu-item{
   margin: .75rem;
@@ -158,6 +159,14 @@ i.toggle-menu img{
 input#check{
   display: none;
 }
+/*barra debajo del header*/
+.barra {
+  max-width: 100%;
+  background-color: #c3a52f; /* Color de la barra (puedes cambiarlo) */
+  height: 30px; /* Altura de la barra (puedes ajustarlo) */
+  margin: 0;
+}
+
 
 
 /*Footer */
